@@ -1776,4 +1776,4 @@ BANNER
 main "$@"
 SCRIPT_EOF
 
-chmod +x install_bspwm.sh
+chmod +x setup-catppuccin-bspwm.sh
