@@ -1816,7 +1816,7 @@ export VISUAL=nano
 EOF
     
 }
-    local bashrc="${HOME_DIR}/.bashrc"
+     bashrc="${HOME_DIR}/.bashrc"
     
     # Backup
     if [ -f "$bashrc" ]; then
@@ -1859,7 +1859,7 @@ export VISUAL=nano
 
 EOF
     
-}
+
 
 #############################################################################
 # RESUMEN FINAL
