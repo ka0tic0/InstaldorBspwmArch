@@ -506,7 +506,7 @@ configure_picom() {
     cat << 'EOF' > "$FILE"
 # --- PICOM CONFIGURATION ---
 
-backend = "glx";
+backend = "xrender";
 vsync = true;
 
 # Opacidad
@@ -515,7 +515,7 @@ inactive-opacity = 0.8;
 frame-opacity = 1.0;
 
 opacity-rule = [
-    "80:class_g = 'kitty'",
+   
     "90:class_g = 'Rofi'"
 ];
 
